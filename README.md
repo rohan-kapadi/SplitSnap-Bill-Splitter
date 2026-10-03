@@ -1,21 +1,22 @@
-# SplitSnap
+# SplitSnap 🧾
 
-SplitSnap is a lightweight Streamlit app that reads a receipt or bill photo, extracts the line items and totals, and helps split the cost fairly between people.
+Snap the bill. Split the cost. Send the summary.
 
-## What it does
-- Upload a receipt image
-- Extract item names and prices with Gemini AI
-- Check subtotal, tax, tip/service charge, and total
-- Split evenly or by who ordered what
-- Email the final breakdown to the user
+SplitSnap is a cheerful little receipt helper that turns a photo of a bill into a clean, fair breakdown — no calculator panic required.
 
-## Tech stack
+## Why it’s cool
+- Upload a receipt photo and let AI read the items
+- Catch the subtotal, tax, tip/service charge, and total
+- Split the bill evenly or by who ordered what
+- Email the final breakdown straight to your inbox
+
+## Stack
 - Python
 - Streamlit
-- Google Gemini API
+- Google Gemini
 - Gmail SMTP
 
-## Run locally
+## Run it locally
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -26,11 +27,10 @@ SplitSnap is a lightweight Streamlit app that reads a receipt or bill photo, ext
    GMAIL_ADDRESS = "you@example.com"
    GMAIL_APP_PASSWORD = "your_app_password"
    ```
-3. Start the app:
+3. Launch the app:
    ```bash
    streamlit run app.py
    ```
 
-## Notes
-- Best used with clear photos of receipts or bills.
-- The app is designed for quick split calculations and email summaries.
+## Best use
+Clear photos of receipts work best. The app is built for quick, friendly bill splitting and instant email summaries.
